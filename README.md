@@ -27,4 +27,29 @@
    + Down Arrow : Di chuyển xuống
    + Left Arrow : Di chuyển sang trái
    + Right Arrow : Di chuyển sang phải
-
+# Các kỹ thuật sử dụng
+   + Thư viện SDL2.0
+   + Có thể lưu lại điểm số cao nhất nhờ đọc ghi file
+   + Dùng kiến thức toán học để thực hiện phép bo cong thân rắn
+   + Khả năng tổ chức code, nạp chồng toán tử, lập trình hướng đối tượng như : tạo các đối tượng : rắn, quả, vật cản,..., inherited code,.... 
+   + Các kiến thức ngoài chương trình : Toán rời rạc, Advance Algorithm như: BFS, DFS, Nén đồ thị tạo thành phần liên thông, Greedy, tạo ma trận ảo, đồ thị ảo, xử lý sai số trong hệ tọa độ, dùng các stl như set, map, deque...
+   + Xử lý thao tác người dùng với trò chơi như thao tác với chuột và bàn phím
+   + Tạo menu và các phím thao tác trong game
+   + Dùng Paint để edit hầu hết các ảnh
+### Nguồn tham khảo
+   + ***Về Syntax của SDL và cách hoạt động của chúng :*** Em học trên thư viện của SDL.
+   + ***Về đồ họa Game :*** Một vài hình ảnh trong game em có lấy từ Google
+   + ***Về âm thanh :*** Em tìm kiếm trên Google
+# Conclusion
+  ## Điều tâm đắc
+   + Dự án này là tự tay em làm mọi phần, không tham khảo, sao chép từ bất cứ ai hay bất cứ nguồn nào hoặc hỏi ý kiến tham khảo từ bất kì ai
+   + Em đã học được rất nhiều điều sau dự án này, đặc biệt là khả năng code của bản thân. Nhờ phải quản lý một khối công việc lớn cũng như tổ chức code sao cho hợp lý em đã nâng cao khả năng lập trình rất nhiều.
+   + Dự án này cũng đã giúp em cải thiện khả năng đọc hiểu Tiếng Anh cũng như tăng khả năng làm việc đường dài của bản thân.
+ ## Điểm hạn chế
+   + Điểm hạn chế duy nhất của game theo em là đồ họa vẫn chưa được tốt nhất so với khả năng của chính em
+ ## Hướng phát triển 
+   + Tạo thêm nhiều loại quả, thêm nhiều màn chơi hơn
+   + Tạo thêm cho AI suy nghĩ cũng như tạo thêm độ khó của AI Mode
+ ## Kết luận
+   + Sau dự án này, em thật sự cảm ơn các thầy cô, thầy **Kiều Hải Đăng** cũng như các anh/chị mentor vì đã giúp em có được một trải nghiệm chưa từng có, cải thiện rất nhiều cũng như bù đắp những thiếu sót trong các kỹ năng của em. Em xin chân thành cảm ơn
+# ***Mức điểm tự đánh giá: 10/10***
