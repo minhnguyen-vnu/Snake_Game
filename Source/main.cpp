@@ -57,7 +57,7 @@ void Game::GameLoop() {
         frame_time = after - before;
 
         if (after - second >= 1000) {
-            if(type == 3 && GameTime > 0) GameTime--;
+            if((type == 3 || type == 2) && GameTime > 0) GameTime--;
             if (SnakeGame.attend) timecount--;
             fps = frames;
             frames = 0;
@@ -99,6 +99,19 @@ void Game::GameLoop() {
         else if(SnakeGame.type == 2){
           Pencil.DrawScore3(renderer, SnakeGame.score, AI.AIscore, 0);
           if(!SnakeGame.alive && !AI.AIalive){
+            notice = 1;
+            if(AI.AIscore > SnakeGame.score){
+              SDL_Texture* texture = SDL_CreateTextureFromSurface(renderer, AIWIN);
+              SDL_Rect block = {270, 250, 300, 250};
+              SDL_RenderCopy(renderer, texture, NULL, &block);
+            }
+            else if(AI.AIscore <= SnakeGame.score){
+              SDL_Texture* texture = SDL_CreateTextureFromSurface(renderer, PLAYERWIN);
+              SDL_Rect block = {270, 250, 300, 250};
+              SDL_RenderCopy(renderer, texture, NULL, &block);
+            }
+          }
+          if(GameTime == 0){
             notice = 1;
             if(AI.AIscore > SnakeGame.score){
               SDL_Texture* texture = SDL_CreateTextureFromSurface(renderer, AIWIN);
