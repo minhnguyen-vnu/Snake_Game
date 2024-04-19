@@ -34,7 +34,8 @@ void Game::Run() {
 
     refresh();
     Draws.init();
-    ICs.init(renderer, SCREEN_WIDTH, SCREEN_HEIGHT);
+    if(type == 3) ICs.init(renderer, 1100, 600);
+    else ICs.init(renderer, SCREEN_WIDTH, SCREEN_HEIGHT);
     GameLoop();
     Draws.free();
     ICs.free();
