@@ -190,6 +190,7 @@ void Game::PollEvents(){
         break;
       }
       else if(ICs.CheckFocusWithRect(xm, ym, ICs.pos[1])){
+        isPause = 0;
         running = false;
         break;
       }
