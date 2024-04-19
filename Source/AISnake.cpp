@@ -309,7 +309,7 @@ void AISnake::AIMovement(Game &MyGame){
       AIscore++;
       next = MyGame.Block::Empty;
       MyGame.duplicateFood();
-      if(AIactualGrow % 10 == 0) GrowBody(1);
+      if(AIactualGrow % 5 == 0) GrowBody(1);
     }
     else if(next2 == MyGame.Block::AIBody){
       AIalive = false;
