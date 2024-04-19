@@ -38,7 +38,7 @@
 
    
    ![Anh4.png](https://up-anh.vi-vn.vn/img/1713503337_5f0aca45b039e7eb5db45d62edd97d8f.png)
-### Demo
+# Demo
    [Link Demo](https://www.youtube.com/watch?v=eeIcKHB4uzw)
 # Các kỹ thuật sử dụng
    + Thư viện SDL2.0
