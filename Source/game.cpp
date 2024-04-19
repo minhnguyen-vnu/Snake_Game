@@ -102,6 +102,7 @@ void Game::duplicateFood(){
     if(y < 5) continue;
 
     if(grid[x][y] == Block::Empty){
+      if(type == 2 && grid2[x][y] != Block::Empty) continue;
       grid[x][y] = Block::Food;
       food.x = x;
       food.y = y;
@@ -499,6 +500,7 @@ void Game::Render(){
     Score().DrawTime1(renderer, 250, GameTime, 0);
     Score().DrawTime1(renderer, 250, GameTime, 600);
   }
+  if(type == 2) Score().DrawTime(renderer, 350, GameTime, 0);
 
   SDL_Texture* texture = SDL_CreateTextureFromSurface(renderer, imageSurface);
   SDL_SetTextureColorMod(texture, 255, 0, 0);
