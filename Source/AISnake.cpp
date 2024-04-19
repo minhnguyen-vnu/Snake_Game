@@ -66,7 +66,7 @@ vector<int> AISnake::BFS(int x, int y, int u, int v, Game::Move CurrentDir, bool
   if(type){
     for(int i = 0; i < (int)AISnakeBody.size(); ++i){
       SDL_Point cur = AISnakeBody[i];
-      if(i == (int)AISnakeBody.size() - 1) continue;
+//      if(i == (int)AISnakeBody.size() - 1) continue;
       forbid[cur.x][cur.y] = 1;
     }
   }
