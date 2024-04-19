@@ -27,17 +27,6 @@
    + Down Arrow : Di chuyển xuống
    + Left Arrow : Di chuyển sang trái
    + Right Arrow : Di chuyển sang phải
-### Preview
-   ![Anh1.png](https://up-anh.vi-vn.vn/img/1713502418_450dec0e5e456c40ad79488f5c84b687.png)
-
-
-   ![Anh2.png](https://up-anh.vi-vn.vn/img/1713502521_b417112a367024ac7e30f0ee8b35a83c.png)
-
-
-   ![Anh3.png](https://up-anh.vi-vn.vn/img/1713503311_f9770c475bc8e8d17b7a06b73513da9b.png)
-
-   
-   ![Anh4.png](https://up-anh.vi-vn.vn/img/1713503337_5f0aca45b039e7eb5db45d62edd97d8f.png)
 # Demo
    [Link Demo](https://www.youtube.com/watch?v=eeIcKHB4uzw)
 # Các kỹ thuật sử dụng
