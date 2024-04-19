@@ -255,6 +255,8 @@ void Contender::Update(){
       brick_list.insert(section);
     }
     er.clear();
+    Mix_Chunk *crunch_sound = Mix_LoadWAV("Sound/crunch.wav");
+    Mix_PlayChannel(-1, crunch_sound, 0);
   }
   else if(next == Block::Body || next == Block::brick){
     alive = false;
